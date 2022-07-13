@@ -12,6 +12,10 @@
     margin: 2rem 0 10rem 0;
 }
 
+.headerContainer.listMode {
+    margin-bottom: 0;
+}
+
 .headerList {
     display: flex;
     gap: 4rem;
@@ -79,6 +83,7 @@
 .date {
     position: absolute;
     top: 5rem;
+    z-index: 2;
 }
 
 .options {
@@ -91,6 +96,7 @@
     -moz-box-shadow: 0 0 1rem -.5rem rgba(0, 0, 0, .4);
     box-shadow: 0 0 1rem -.5rem rgba(0, 0, 0, .4);
     padding: 1rem;
+    z-index: 2;
 }
 .optionItem {
     display: flex;
